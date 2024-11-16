@@ -84,7 +84,7 @@ export default function Home() {
                     variant="outline"
                     className="text-white border-white hover:bg-white/20"
                   >
-                    View Portfolio
+                    <Link href="/portfolio">View Portfolio</Link>
                   </Button>
                 </div>
               </motion.div>

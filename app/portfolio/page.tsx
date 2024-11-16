@@ -131,6 +131,7 @@ export default function Portfolio() {
                           alt={`Portfolio ${index + 1}`}
                           fill
                           className="object-cover rounded-lg"
+                          priority
                         />
                         <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-center justify-center">
                           <Button
