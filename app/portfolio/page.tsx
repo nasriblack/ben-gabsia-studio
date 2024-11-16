@@ -24,66 +24,66 @@ const images = [
     src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731772012/_YAC8722-min_m4zz3b.jpg",
     category: "Weddings",
   },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771965/_YAC8503-min_iifgjl.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771915/_YAC8358-min_wy7q18.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771948/_YAC8284-min_qepqu6.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771788/_YAC6013-min_gvidhx.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771734/_YAC6068-min_rgwxys.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771792/_YAC7095-min_w7lqyp.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771954/_YAC7549-min-min_vn2kmp.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771890/_YAC8495-min_leqmkh.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771849/_YAC7447-min_iyx9he.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731772025/DSC_8848-min_uud7dj.jpg",
-    category: "Portraits",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771851/_YAC7561-min_bmdclt.jpg",
-    category: "Portraits",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731779806/_YAC9458-min_wdywzh.jpg",
-    category: "Portraits",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731779803/_YAC9452-min_dpnqux.jpg",
-    category: "Portraits",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771857/_YAC2575-min_ws2lud.jpg",
-    category: "Events",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771814/_YAC2377-min_s4rdoj.jpg",
-    category: "Events",
-  },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771965/_YAC8503-min_iifgjl.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771915/_YAC8358-min_wy7q18.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771948/_YAC8284-min_qepqu6.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771788/_YAC6013-min_gvidhx.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771734/_YAC6068-min_rgwxys.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771792/_YAC7095-min_w7lqyp.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771954/_YAC7549-min-min_vn2kmp.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771890/_YAC8495-min_leqmkh.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771849/_YAC7447-min_iyx9he.jpg",
+  //   category: "Weddings",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731772025/DSC_8848-min_uud7dj.jpg",
+  //   category: "Portraits",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771851/_YAC7561-min_bmdclt.jpg",
+  //   category: "Portraits",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731779806/_YAC9458-min_wdywzh.jpg",
+  //   category: "Portraits",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731779803/_YAC9452-min_dpnqux.jpg",
+  //   category: "Portraits",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771857/_YAC2575-min_ws2lud.jpg",
+  //   category: "Events",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771814/_YAC2377-min_s4rdoj.jpg",
+  //   category: "Events",
+  // },
 ];
 
 export default function Portfolio() {
