@@ -17,7 +17,9 @@ export default function Contact() {
             className="text-center mb-12"
           >
             <h1 className="text-4xl font-bold mb-4">Contact Me</h1>
-            <p className="text-gray-600">Let's discuss your photography needs</p>
+            <p className="text-gray-600">
+              Let's discuss your photography needs
+            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -30,15 +32,15 @@ export default function Contact() {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <Phone className="w-6 h-6 text-gray-600" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>(+216) 20416717</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-gray-600" />
-                  <span>contact@johndoe.com</span>
+                  <span>malikprod123@gmail.com </span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-gray-600" />
-                  <span>123 Photography St, New York, NY 10001</span>
+                  <span>Rue les orangers,Nabeul,8000</span>
                 </div>
               </div>
 
@@ -62,29 +64,49 @@ export default function Contact() {
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
+                    <label
+                      htmlFor="firstName"
+                      className="block text-sm font-medium text-gray-700 mb-1"
+                    >
                       First Name
                     </label>
                     <Input id="firstName" placeholder="John" />
                   </div>
                   <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1">
+                    <label
+                      htmlFor="lastName"
+                      className="block text-sm font-medium text-gray-700 mb-1"
+                    >
                       Last Name
                     </label>
                     <Input id="lastName" placeholder="Doe" />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700 mb-1"
+                  >
                     Email
                   </label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
+                  <Input
+                    id="email"
+                    type="email"
+                    placeholder="john@example.com"
+                  />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-gray-700 mb-1"
+                  >
                     Message
                   </label>
-                  <Textarea id="message" placeholder="Tell me about your project..." className="h-32" />
+                  <Textarea
+                    id="message"
+                    placeholder="Tell me about your project..."
+                    className="h-32"
+                  />
                 </div>
                 <Button className="w-full">Send Message</Button>
               </form>

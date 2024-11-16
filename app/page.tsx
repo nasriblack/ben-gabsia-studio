@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="h-screen relative flex items-center justify-center">
         <Image
-          src="https://images.unsplash.com/photo-1464855499786-2839659d9e5d"
+          src="/images/couv.jpg"
           alt="Hero background"
           fill
           className="object-cover"
@@ -25,12 +25,21 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="relative text-center text-white space-y-6 px-4"
         >
-          <h1 className="text-5xl md:text-7xl font-bold">Capturing Life's Precious Moments</h1>
+          <h1 className="text-5xl md:text-7xl font-bold">
+            Capturing Life's Precious Moments
+          </h1>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto">
-            Professional photography services for weddings, events, and special occasions
+            Professional photography services for weddings, events, and special
+            occasions
           </p>
-          <Button asChild size="lg" className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-            <Link href="/booking">Book Now <ArrowRight className="ml-2" /></Link>
+          <Button
+            asChild
+            size="lg"
+            className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90"
+          >
+            <Link href="/booking">
+              Book Now <ArrowRight className="ml-2" />
+            </Link>
           </Button>
         </motion.div>
       </section>
@@ -45,9 +54,11 @@ export default function Home() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-bold mb-4">Featured Work</h2>
-            <p className="text-muted-foreground">A glimpse into my recent photography projects</p>
+            <p className="text-muted-foreground">
+              A glimpse into my recent photography projects
+            </p>
           </motion.div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               "https://images.unsplash.com/photo-1511285560929-80b456fea0bc",
@@ -69,7 +80,10 @@ export default function Home() {
                   className="object-cover rounded-lg"
                 />
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-center justify-center">
-                  <Button variant="outline" className="text-white border-white hover:bg-white/20">
+                  <Button
+                    variant="outline"
+                    className="text-white border-white hover:bg-white/20"
+                  >
                     View Project
                   </Button>
                 </div>
@@ -89,14 +103,29 @@ export default function Home() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-bold mb-4">Services</h2>
-            <p className="text-muted-foreground">Professional photography services for every occasion</p>
+            <p className="text-muted-foreground">
+              Professional photography services for every occasion
+            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: Heart, title: "Weddings", description: "Capture your special day with elegance and style" },
-              { icon: Star, title: "Events", description: "Professional coverage for corporate and social events" },
-              { icon: Camera, title: "Portraits", description: "Beautiful portraits that tell your story" },
+              {
+                icon: Heart,
+                title: "Weddings",
+                description: "Capture your special day with elegance and style",
+              },
+              {
+                icon: Star,
+                title: "Events",
+                description:
+                  "Professional coverage for corporate and social events",
+              },
+              {
+                icon: Camera,
+                title: "Portraits",
+                description: "Beautiful portraits that tell your story",
+              },
             ].map((service, index) => (
               <motion.div
                 key={index}
@@ -151,12 +180,20 @@ export default function Home() {
             viewport={{ once: true }}
             className="max-w-3xl mx-auto"
           >
-            <h2 className="text-4xl font-bold mb-4">Ready to Create Something Beautiful?</h2>
+            <h2 className="text-4xl font-bold mb-4">
+              Ready to Create Something Beautiful?
+            </h2>
             <p className="text-muted-foreground mb-8">
               Let's work together to capture your special moments
             </p>
-            <Button asChild size="lg" className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-              <Link href="/contact">Get in Touch <ArrowRight className="ml-2" /></Link>
+            <Button
+              asChild
+              size="lg"
+              className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90"
+            >
+              <Link href="/contact">
+                Get in Touch <ArrowRight className="ml-2" />
+              </Link>
             </Button>
           </motion.div>
         </div>
