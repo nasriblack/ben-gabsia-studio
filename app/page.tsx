@@ -61,9 +61,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              "https://images.unsplash.com/photo-1511285560929-80b456fea0bc",
-              "https://images.unsplash.com/photo-1519741497674-611481863552",
-              "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6",
+              "https://res.cloudinary.com/day0flv3i/image/upload/v1731771961/_YAC8621-min_kxui2c.jpg",
+              "https://res.cloudinary.com/day0flv3i/image/upload/v1731772017/_YAC8732-min_afmgpu.jpg",
+              "https://res.cloudinary.com/day0flv3i/image/upload/v1731771814/_YAC2377-min_s4rdoj.jpg",
             ].map((src, index) => (
               <motion.div
                 key={index}
@@ -84,7 +84,7 @@ export default function Home() {
                     variant="outline"
                     className="text-white border-white hover:bg-white/20"
                   >
-                    View Project
+                    View Portfolio
                   </Button>
                 </div>
               </motion.div>
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* Video Section */}
-      <section className="py-20 bg-black text-white">
+      {/* <section className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="aspect-video relative rounded-lg overflow-hidden">
             <video
@@ -169,7 +169,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action */}
       <section className="py-20 bg-background">
