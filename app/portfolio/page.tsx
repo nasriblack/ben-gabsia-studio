@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const categories = ["All", "Weddings", "Events", "Portraits"];
 const IMAGES_PER_PAGE = 6;
@@ -15,39 +15,7 @@ const images = [
     category: "Weddings",
   },
   {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731772027/_YAC8738-min_l2in0i.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771971/_YAC8085-min_zkryef.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731772012/_YAC8722-min_m4zz3b.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771965/_YAC8503-min_iifgjl.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771915/_YAC8358-min_wy7q18.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771948/_YAC8284-min_qepqu6.jpg",
-    category: "Weddings",
-  },
-  {
     src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771788/_YAC6013-min_gvidhx.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771734/_YAC6068-min_rgwxys.jpg",
-    category: "Weddings",
-  },
-  {
-    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771792/_YAC7095-min_w7lqyp.jpg",
     category: "Weddings",
   },
   {
@@ -58,6 +26,41 @@ const images = [
     src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771890/_YAC8495-min_leqmkh.jpg",
     category: "Weddings",
   },
+  {
+    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771792/_YAC7095-min_w7lqyp.jpg",
+    category: "Weddings",
+  },
+  {
+    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731772012/_YAC8722-min_m4zz3b.jpg",
+    category: "Weddings",
+  },
+  {
+    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771915/_YAC8358-min_wy7q18.jpg",
+    category: "Weddings",
+  },
+  {
+    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771734/_YAC6068-min_rgwxys.jpg",
+    category: "Weddings",
+  },
+  {
+    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771971/_YAC8085-min_zkryef.jpg",
+    category: "Weddings",
+  },
+
+  {
+    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771965/_YAC8503-min_iifgjl.jpg",
+    category: "Weddings",
+  },
+
+  {
+    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771948/_YAC8284-min_qepqu6.jpg",
+    category: "Weddings",
+  },
+  {
+    src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731772027/_YAC8738-min_l2in0i.jpg",
+    category: "Weddings",
+  },
+
   {
     src: "https://res.cloudinary.com/day0flv3i/image/upload/v1731771849/_YAC7447-min_iyx9he.jpg",
     category: "Weddings",
